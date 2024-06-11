@@ -70,3 +70,18 @@ kubectl -n <ns> port-forward svc/<svc-name> <local_port>:<service_port>
     + Với mac, linux là `/etc/hosts`
 - Truy cập app CRUD qua `http:///<tênmình>.demo.service:30000/crud` (30000 là port của nginx-ingress-controller đang chạy sẵn)
 
+CREATE TABLE IF NOT EXISTS public.fp_log
+(
+    created_at date,
+    id bigint NOT NULL DEFAULT nextval('fp_log_id_seq1'::regclass),
+    account character varying(255) COLLATE pg_catalog."default",
+    action character varying(255) COLLATE pg_catalog."default",
+    browser character varying(255) COLLATE pg_catalog."default",
+    fp character varying(255) COLLATE pg_catalog."default",
+    user_agent character varying(255) COLLATE pg_catalog."default",
+    web character varying(255) COLLATE pg_catalog."default",
+    components jsonb,
+    random_txt character varying(255) COLLATE pg_catalog."default",
+    CONSTRAINT fp_log_pkey PRIMARY KEY (id)
+)
+
