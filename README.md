@@ -85,3 +85,108 @@ CREATE TABLE IF NOT EXISTS public.fp_log
     CONSTRAINT fp_log_pkey PRIMARY KEY (id)
 )
 
+created_at	id	account	action	browser	fp	user_agent	web	components	random_txt
+6/11/2024	6882	2291	XOA_COOKIE	Chrome - 125 - Windows	6d5447f387386869a9f070d12023b693	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36	SMO	{"audio": {"value": 0.0000832115, "duration": 63}, "osCpu": {"duration": 0}, "vendor": {"value": "Google Inc.", "duration": 0}, "applePay": {"value": -1, "duration": 0}, "cpuClass": {"duration": 0}, "platform": {"value": "Win32", "duration": 0}, "indexedDB": {"value": true, "duration": 0}, "languages": {"value": [["en-US"]], "duration": 0}, "colorDepth": {"value": 24, "duration": 0}, "colorGamut": {"value": "srgb", "duration": 0}, "monochrome": {"value": 0, "duration": 0}, "webGlBasics": {"value": {"vendor": "WebKit", "version": "WebGL 1.0 (OpenGL ES 2.0 Chromium)", "renderer": "WebKit WebGL", "vendorUnmasked": "Google Inc. (Intel)", "rendererUnmasked": "ANGLE (Intel, Intel(R) HD Graphics 630 (0x00005912) Direct3D11 vs_5_0 ps_5_0, D3D11)", "shadingLanguageVersion": "WebGL GLSL ES 1.0 (OpenGL ES GLSL ES 1.0 Chromium)"}, "duration": 9}, "architecture": {"value": 255, "duration": 0}, "deviceMemory": {"value": 8, "duration": 0}, "forcedColors": {"value": false, "duration": 0}, "localStorage": {"value": true, "duration": 0}, "openDatabase": {"value": false, "duration": 0}, "vendorFlavors": {"value": ["chrome"], "duration": 0}, "cookiesEnabled": {"value": true, "duration": 0}, "invertedColors": {"duration": 0}, "sessionStorage": {"value": true, "duration": 0}, "pdfViewerEnabled": {"value": false, "duration": 0}, "privateClickMeasurement": {"duration": 0}}	dkcjzh
+{
+  "audio": {
+    "value": 0.0000832115,
+    "duration": 63
+  },
+  "osCpu": {
+    "duration": 0
+  },
+  "vendor": {
+    "value": "Google Inc.",
+    "duration": 0
+  },
+  "applePay": {
+    "value": -1,
+    "duration": 0
+  },
+  "cpuClass": {
+    "duration": 0
+  },
+  "platform": {
+    "value": "Win32",
+    "duration": 0
+  },
+  "indexedDB": {
+    "value": true,
+    "duration": 0
+  },
+  "languages": {
+    "value": [
+      [
+        "en-US"
+      ]
+    ],
+    "duration": 0
+  },
+  "colorDepth": {
+    "value": 24,
+    "duration": 0
+  },
+  "colorGamut": {
+    "value": "srgb",
+    "duration": 0
+  },
+  "monochrome": {
+    "value": 0,
+    "duration": 0
+  },
+  "webGlBasics": {
+    "value": {
+      "vendor": "WebKit",
+      "version": "WebGL 1.0 (OpenGL ES 2.0 Chromium)",
+      "renderer": "WebKit WebGL",
+      "vendorUnmasked": "Google Inc. (Intel)",
+      "rendererUnmasked": "ANGLE (Intel, Intel(R) HD Graphics 630 (0x00005912) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "shadingLanguageVersion": "WebGL GLSL ES 1.0 (OpenGL ES GLSL ES 1.0 Chromium)"
+    },
+    "duration": 9
+  },
+  "architecture": {
+    "value": 255,
+    "duration": 0
+  },
+  "deviceMemory": {
+    "value": 8,
+    "duration": 0
+  },
+  "forcedColors": {
+    "value": false,
+    "duration": 0
+  },
+  "localStorage": {
+    "value": true,
+    "duration": 0
+  },
+  "openDatabase": {
+    "value": false,
+    "duration": 0
+  },
+  "vendorFlavors": {
+    "value": [
+      "chrome"
+    ],
+    "duration": 0
+  },
+  "cookiesEnabled": {
+    "value": true,
+    "duration": 0
+  },
+  "invertedColors": {
+    "duration": 0
+  },
+  "sessionStorage": {
+    "value": true,
+    "duration": 0
+  },
+  "pdfViewerEnabled": {
+    "value": false,
+    "duration": 0
+  },
+  "privateClickMeasurement": {
+    "duration": 0
+  }
+}
